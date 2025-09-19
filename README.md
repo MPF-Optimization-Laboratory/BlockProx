@@ -13,7 +13,7 @@ $$F(x) := \sum_{i=1}^n f_i(x_i) \quad \text{and} \quad G(x) := \sum_{j=1}^m G_j(
 The variable $x=(x_1, \ldots, x_n) \in \mathbb{R}^{nd}$ partions into blocks $x_i \in \mathbb{R}^d$, where each $f_i : \mathbb{R}^d \to \mathbb{R}$ and $G_j : \mathbb{R}^{nd} \to \mathbb{R}$ is proper, closed, and convex.
 Each block $x_i$ corresponds to node $i$ in the communication network, where $f_i$ represents the local data and objective for node $i$, and $G_j$ represents the $j$ th coordination constraint.
 
-For further details on the problem and the algorithm, please refer to [our paper](https://arxiv.org/abs/xxx):
+For further details on the problem and the algorithm, please refer to [our paper](https://arxiv.org/abs/2509.14488):
 
 ```bibtex
 @article{LKAF25BlockProx,
@@ -23,7 +23,7 @@ For further details on the problem and the algorithm, please refer to [our paper
       eprint={},
       archivePrefix={arXiv},
       primaryClass={math.OC},
-      url={https://arxiv.org/abs/xxx}, 
+      url={https://arxiv.org/abs/2509.14488}, 
 }
 ```
 
