@@ -22,7 +22,7 @@ For further details on the problem and the algorithm, please refer to [our paper
       year={2025},
       eprint={},
       archivePrefix={arXiv},
-      primaryClass={math.OC},
+      primaryClass={cs.LG},
       url={https://arxiv.org/abs/2509.14488}, 
 }
 ```
