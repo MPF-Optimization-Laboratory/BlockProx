@@ -1,5 +1,7 @@
 # Decentralized Optimization with Topology-Independent Communication
 
+[![DOI](https://zenodo.org/badge/1022744701.svg)](https://doi.org/10.5281/zenodo.20683805)
+
 This repository contains the Julia implementation of the `RandomEdge` algorithm, the specification of `BlockProx` to graph-guided regularizers.
 
 `BlockProx` is a decentralized algorithm for solving the following structured optimization problem in a decentralized manner:
