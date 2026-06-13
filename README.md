@@ -20,7 +20,7 @@ For further details on the problem and the algorithm, please refer to [our paper
       title={Decentralized Optimization with Topology-Independent Communication}, 
       author={Ying Lin and Yao Kuang and Ahmet Alacaoglu and Michael P. Friedlander},
       year={2025},
-      eprint={},
+      eprint={2509.14488},
       archivePrefix={arXiv},
       primaryClass={cs.LG},
       url={https://arxiv.org/abs/2509.14488}, 
@@ -55,17 +55,23 @@ For further details on the problem and the algorithm, please refer to [our paper
 
    ```sh
    julia ./runcode_LS.jl
+   julia ./runcode_strongly_convex.jl
+   julia ./runcode_m_scaling.jl
    julia ./runcode_housing.jl
    ```
    or inside `Julia` REPL:
    ```julia
    include("./runcode_LS.jl")
+   include("./runcode_strongly_convex.jl")
+   include("./runcode_m_scaling.jl")
    include("./runcode_housing.jl")
    ```
 
 ## Code structure
 
 - All the implementations are included in `src.jl`, with built-in detailed documentations and comments.
-- There are two runcode files:
+- There are four runcode files:
   1. `runcode_LS.jl`: The runcode for experiments on synthetic data: least squares benchmarks, see Section 6.1 of the paper.
-  2. `runcode_housing.jl`: The runcode for experiments on real data: housing dataset, see Section 6.2 of the paper.
+  2. `runcode_strongly_convex.jl`: The strong-convexity experiment (linear convergence to a neighborhood under a Tikhonov regularizer), see Section 6.1 of the paper.
+  3. `runcode_m_scaling.jl`: The m-scaling experiment (empirical neighborhood radius versus the edge count m = |E|), see Section 6.1 of the paper.
+  4. `runcode_housing.jl`: The runcode for experiments on real data: housing dataset, see Section 6.2 of the paper.
