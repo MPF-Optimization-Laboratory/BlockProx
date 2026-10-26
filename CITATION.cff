@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "BlockProx"
+type: software
+authors:
+  - given-names: Ying
+    family-names: Lin
+    affiliation: The University of Hong Kong
+  - given-names: Yao
+    family-names: Kuang
+    affiliation: University of British Columbia
+  - given-names: Ahmet
+    family-names: Alacaoglu
+    affiliation: University of British Columbia
+  - given-names: Michael P.
+    family-names: Friedlander
+    affiliation: University of British Columbia
+version: v1.0.0
+doi: 10.5281/zenodo.20683805
+repository-code: "https://github.com/MPF-Optimization-Laboratory/BlockProx"
+license: MIT
